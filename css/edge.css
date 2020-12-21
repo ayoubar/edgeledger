@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#navbar {
+    display:flex;
+    justify-content:space-around;
+    padding: 1rem;
+    background: #333;
+}
+
+#navbar ul {
+    list-style-type:none;
+    display: flex;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    text-transform: uppercase;
+    
+}
+#navbar ul li a:hover {
+    background: #f4f4f4;
+    color: black;
+}
